@@ -81,10 +81,10 @@ function App() {
         </div>
         <Namepics />
         <Aboutme />
-        <Suspense fallback={<div className='bg-[#C8DF52]'>Loading.......</div>}>
+        <Suspense fallback={<div className='bg-[#C8DF52] font-[Kalam] font-bold text-[2vmax]'>Loading.......</div>}>
           <Skills />
         </Suspense>
-        <Suspense fallback={<div className='bg-[#C8DF52]'>Loading.......</div>}>
+        <Suspense fallback={<div className='bg-[#C8DF52] font-[Kalam] font-bold text-[2vmax]'>Loading.......</div>}>
           <Sampleprojects setIsModalOpen={setIsModalOpen} setIsModalData={setIsModalData}/>
         </Suspense>
         <Contactme />
