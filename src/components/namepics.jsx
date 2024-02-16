@@ -1,7 +1,6 @@
 import React, { Suspense, lazy } from 'react'
 
 const Details = lazy(() => import('./details'));
-// const Sampleprojects = lazy(() => import('./components/sampleprojects'));
 
 function namepics() {
   return (
