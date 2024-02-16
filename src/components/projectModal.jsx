@@ -16,14 +16,6 @@ function projectModal({ setIsModalOpen,setIsModalData, isModalOpen, isModalData 
                   <h3 className="text-3xl font-bold portrait:text-2xl">
                   {isModalData[0]}
                   </h3>
-                  {/* <button
-                    className="p-1 ml-auto bg-transparent border-0 text-black opacity-5 float-right text-3xl leading-none font-semibold outline-none focus:outline-none"
-                    onClick={() => setIsModalOpen(false)}
-                  >
-                    <span className="bg-transparent text-black opacity-5 h-6 w-6 text-2xl block outline-none focus:outline-none">
-                      ×
-                    </span>
-                  </button> */}
                 </div>
                 {/*body*/}
                 <div className="relative p-6 flex-auto portrait:p-2">
@@ -42,13 +34,6 @@ function projectModal({ setIsModalOpen,setIsModalData, isModalOpen, isModalData 
                 </div>
                 {/*footer*/}
                 <div className="flex items-center justify-center p-6 border-t border-solid border-slate-200 rounded-b">
-                  {/* <button
-                    className="text-red-500 background-transparent font-bold uppercase px-6 py-2 text-sm outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
-                    type="button"
-                    onClick={() => setIsModalOpen(false)}
-                  >
-                    Close
-                  </button> */}
                   <button
                     className="bg-[#0A7029] text-[#FEDE00] active:bg-emerald-600 font-bold uppercase text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
                     type="button"
@@ -61,10 +46,6 @@ function projectModal({ setIsModalOpen,setIsModalData, isModalOpen, isModalData 
             </div>
           </div>
           <div className="opacity-25 fixed inset-0 z-40 bg-black"></div>
-
-
-
-
         </>}
     </>
   )
