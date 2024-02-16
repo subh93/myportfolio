@@ -17,11 +17,8 @@ function sampleprojects({ setIsModalOpen, setIsModalData }) {
               <>
                 <div key={item.key} className='relative portrait:w-full landscape:w-5/12 aspect-[16/9] prodetailshover'>
                   <div className={`opacity-100 w-full h-full pd1`}>
-                    {/* {item.img} */}
-                    {/* <img src={`../projectsnap/${item.img}`} alt={item.img} className='w-full'/> */}
                     <LazyLoadImage
                       alt={item.img}
-                      // height={image.height}
                       src={`../projectsnap/${item.img}`}
                       effect='opacity'
                       className='w-full' />
