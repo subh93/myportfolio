@@ -3,8 +3,6 @@ import './App.css'
 import NavBar from './components/navbar';
 import Namepics from './components/namepics';
 import Aboutme from './components/aboutme';
-// import Skills from './components/skills';
-// import Sampleprojects from './components/sampleprojects';
 import Contactme from './components/contactme';
 import Footer from './components/footer';
 import Contactdetails from './components/contactdetails';
@@ -51,21 +49,6 @@ function App() {
     };
   }, []);
 
-  // const downloadResume = () => {
-  //   // using Java Script method to get PDF file
-  //   // fetch('../../resume/Subhashis Das Resume.pdf').then(response => {
-  //   fetch('Subhashis_Das_FrontEnd_React_FullStack_MERN.pdf').then(response => {
-  //       response.blob().then(blob => {
-  //           // Creating new object of PDF file
-  //           const fileURL = window.URL.createObjectURL(blob);
-  //           // Setting various property values
-  //           let alink = document.createElement('a');
-  //           alink.href = fileURL;
-  //           alink.download = 'Subhashis_Das_FrontEnd_React_FullStack_MERN.pdf';
-  //           alink.click();
-  //       })
-  //   })
-  // }
   const handleTop = () => {
     const boxContent = document.getElementById("boxContent");
     if(boxContent){
@@ -92,7 +75,6 @@ function App() {
 
         <Contactdetails isScroll={isScrolled2}/>
         <ProjectModal setIsModalOpen={setIsModalOpen} setIsModalData={setIsModalData} isModalOpen={isModalOpen} isModalData={isModalData}/>
-        {/* <button onClick={downloadResume} className={`w-[4vmax] aspect-[1/1] fixed z-10 top-[45vh] rounded-full border border-[#0A7029] border-[0.3vmax] landscape:right-[0.6%] portrait:right-[6%] bg-[url("../document-text-svgrepo-com.png")] bg-[#0A7029] bg-center bg-[50%,50%] bg-no-repeat portrait:scale-[2]`}></button> */}
         <button id="scrolltotop" title="Scroll To Top" onClick={handleTop} className={`transition-all duration-700 w-[3vmax] aspect-[1/1] fixed z-10 bottom-[10vh] rounded-full border border-[#0A7029] border-[0.3vmax] ${isScrolled ? "landscape:right-[0.6%] portrait:right-[2%]" : "right-[-12%]"} bg-[url("../up-arrow-svgrepo-com.png")] bg-transparent bg-center bg-[50%,50%] bg-no-repeat portrait:scale-[2] portrait:origin-bottom-right`}></button>
       </div>
     </>
