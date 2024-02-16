@@ -30,7 +30,6 @@ function contactme() {
             <label className="absolute duration-300 block capitalize tracking-wide text-lg font-bold mb-2 z-[-1] origin-left top-3 font-[kalam]" htmlFor="name">
               Name
             </label>
-            {/* <p className="text-red text-xs italic">Please fill out this field.</p> */}
           </div>
           <div className="relative z-0 md:w-1/2 px-3">
             <input className="appearance-none block w-full bg-transparent border border-0 border-b-2 border-[#0A702950] focus:outline-none focus:border-[#0A7029] focus:border-b-2 py-3 mb-3 font-[kalam]" id="email" type="email" placeholder=" " ref={form_email} name="sender_email"/>
@@ -45,7 +44,6 @@ function contactme() {
             <label className="absolute duration-300 block capitalize tracking-wide text-lg font-bold mb-2 z-[-1] origin-left top-3 font-[kalam]" htmlFor="massage">
               massage
             </label>
-            {/* <p className="text-grey-dark text-xs italic">Make it as long and as crazy as you'd like</p> */}
           </div>
         </div>
         <input type="submit" value="Submit" className='block landscape:w-1/6 portrait:w-1/2 mx-auto outline outline-[#0A7029] font-bold text-xl py-4 rounded-none  hover:rounded-t-3xl transition-all duration-1000 ease-in-out font-[kalam]'/>
